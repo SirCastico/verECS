@@ -1,2 +1,3 @@
-main : src/h.cpp
-	g++ src/h.cpp -o main -g -std=c++20
+main : src/main.cpp src/verECS.hpp
+	g++ src/main.cpp -o main -g -Wall -std=c++20
+
